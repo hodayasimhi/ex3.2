@@ -1,0 +1,188 @@
+*{margin: 0; padding: 0; font-family: sans-serif;}
+footer, main, section, nav {
+	display: block;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#wrapperLayout1, #wrapperLayout2{
+    width: 1000px;
+    position: relative;
+    margin: 0px, auto;
+    background-color: #ffffff;
+}
+
+.clear {
+    clear: both;
+}
+#Logo{
+    width:68px;
+    height:69px;
+    
+    background-repeat: no-repeat;
+    background-image: url(../images/logo_ex3.png);
+}
+
+
+
+#wrapperLayout1 header {
+    height: 183px;
+    position: relative;
+}
+#wrapperLayout1 header #Logo {
+    margin-top: 12px; 
+    margin-left: 104px;
+    float: left;
+}
+
+#wrapperLayout1 header #myNav{   
+    float: right; 
+    vertical-align: bottom;   
+    margin-top: 49px;
+    line-height: 57px;
+    height: 57px; 
+    width: 727px; 
+}
+#wrapperLayout1 header #myNav li{
+    width: 241px;
+    height: 57px;
+    float: left;
+    vertical-align: middle;
+    background-color: #b94a48;
+    color: #ffffff;
+    size: 22px;
+    text-align: center;
+}
+#wrapperLayout1 header #myNav .choose{
+    background-color: #333333;
+}
+
+#wrapperLayout1 main{
+    position: relative;
+    float: right;
+    width: 850px;
+    height: 695px;
+    background-color: #ffffff;
+}
+#wrapperLayout1 main section {
+    width: 849px;
+    height: 268px;
+    background-color: #ee5f5b;
+    position: absolute;
+    float: right;
+}
+#wrapperLayout1 main section article {
+    width: 126px;
+    height: 94px;
+    background-color: #5f2624;
+    vertical-align: top;
+    position: absolute;
+    top: 89px;
+    bottom: 85px;
+    left: 342px;
+}
+#wrapperLayout1 main p{
+    width: 692px;
+    height: 175px;
+    top: 493px;
+    left: 67px;
+    background-color: #666666;
+    vertical-align: bottom;
+    position: absolute;
+}
+
+#wrapperLayout1 aside {
+    width: 121px;
+    height: 696px;
+    background-color: #f2dede;
+    float: left;
+    position: absolute;
+}
+
+#wrapperLayout1 footer {
+    position: relative;
+    height: 121px;
+    background-color: #d6d6d6;
+}
+
+
+#wrapperLayout2 header {
+    height: 194px;
+    position: relative;
+}
+#wrapperLayout2 header #Logo {
+    position: absolute;
+    top: 68px;
+    left: 464px;
+}
+
+#wrapperLayout2 nav {
+    width: 242px;
+    height: 1000px;
+    background-color: #333333;
+    position: absolute;
+    float: left;
+    line-height: 58px;
+}
+#wrapperLayout2 nav li{
+    height: 58px;
+    color: #ffffff;
+    vertical-align: middle;
+    size: 22px;
+    padding-left: 6px;
+}
+#wrapperLayout2 nav .choose{
+    background-color: #b94a48;
+}
+
+#wrapperLayout2 main{
+    width: 758px;
+    height: 1000px;
+    top: 1px;
+    background-color: #ee5f5b;
+    float: right;
+    position: relative;
+}
+#wrapperLayout2 main section {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    width: 212px;
+    height: 807px;
+}
+#wrapperLayout2 main section article{
+    background-color: #000000;
+    opacity: 0.6;
+    margin-bottom: 19px;
+}
+
+#wrapperLayout2 main section .rect1{
+    height: 366px;
+}
+#wrapperLayout2 main section .rect2{
+    height: 500px;
+}
+
+#wrapperLayout2 main section .rect3{
+    height: 560px;
+}
+#wrapperLayout2 main section .rect4{
+    height: 306px;
+}
+
+#wrapperLayout2 main section .rect5{
+    height: 323px;
+}
+
+#wrapperLayout2 footer{
+    height: 50px;
+    width: 1000px;
+    background-color: #d6d6d6;
+    position: fixed;
+    bottom: 0px;
+}
