@@ -186,3 +186,78 @@ a{
     position: fixed;
     bottom: 0px;
 }
+
+
+
+#wrapperLayout3{
+    max-width: 1000px;
+    min-width: 500px;
+    width: auto;
+}
+
+#wrapperLayout3 header{
+    background-color: #ffffff;
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+#wrapperLayout3 header #Logo{
+    position: absolute;
+    left: 21px;
+    top: 23px;
+}
+#wrapperLayout3 header article{
+    position: absolute;
+    height: 86px;
+    width: 86px;
+    top: 206px;
+    left: 209px;
+}
+
+#wrapperLayout3 header nav{
+    position: absolute;
+    height: 62px;
+    line-height: 62px;
+    top: 439px;
+}
+#wrapperLayout3 header nav li{
+    vertical-align: middle;
+    width: 166px;
+    float: left;
+    size: 22px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #b94a48;
+}
+#wrapperLayout3 header nav .chosen{
+    width: 168px;
+    background-color: #333333;
+}
+
+#wrapperLayout3 #Plus {
+    height: 88px;
+    width: 88px;
+    left: 207px;
+    top: 209px;
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+}
+
+#wrapperLayout3 main {
+    min-height:1000px;
+    max-width: 1000px;
+    height: auto;
+    background-color: #9d261d;
+}
+
+.rect {
+    display: block;
+    float: left;
+    height: 250px;
+    width: 250px;
+    background-color: #000000;
+}
+/* .rect:hover{
+    background-color: #ffffff;
+    opacity: 1.0 ! important;
+} */
